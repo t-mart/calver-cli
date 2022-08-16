@@ -1,0 +1,12 @@
+// this is here so eslint doesn't nag about it's own config file, .eslintrc.cjs
+// as a dev tool config, it runs in a different "environment" than the main source code,
+// and thusly, deserves its own config.
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true
+  },
+  "extends": "./tsconfig.json",
+  "include": [".eslintrc.cjs"]
+}
