@@ -13,6 +13,9 @@
     "build": "tsup-node src/index.ts --clean --sourcemap --format esm --dts",
     "link-cli": "pnpm build && pnpm link ."
   },
+  "repository": {
+    "url": "https://github.com/t-mart/calver-cli"
+  },
   "keywords": [],
   "license": "ISC",
   "dependencies": {
