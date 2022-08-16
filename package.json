@@ -16,7 +16,7 @@
   "repository": {
     "url": "https://github.com/t-mart/calver-cli"
   },
-  "keywords": [],
+  "keywords": ["calver", "versioning"],
   "license": "ISC",
   "dependencies": {
     "calver": "^22.8.4",
